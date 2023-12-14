@@ -31,6 +31,11 @@ const tarefas = [
         text: 'Estudar Javascript',
         prazo: '10 dias'
     },
+    {
+        id: crypto.randomUUID(),
+        text: 'Estudar desenvolvimento de jogos',
+        prazo: '20 dias'
+    },
 ]
 
 // REST - POST / GET / PUT / DELETE
