@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex Simples javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <h1>Lista de pokemons</h1>
-        <ul id="pokemons">
-        </ul>
+        <header class="pokedex-header">
+            <img src="./logo_pokemon.png" alt="Logo do Pokemon amarela">
+            <h1>Lista de pokemons</h1>
+            
+        </header>
+        <section class="container">
+            <ul id="pokemons">
+            </ul>
+        </section>
     </main>
     <script>
         const listaTarefasHtml = document.getElementById('pokemons');
